@@ -17,40 +17,50 @@
     <!-- Definindo as variaveis de definição da interface com css -->
     <style type="text/css">
       #tamanhoContainer {
-        width: 500px;
+        width: 900px;
       }
 
-      #botao {
-        background-color: #FEC68D;
-        color: #ffffff
-      }
+
+      .botao {
+          border-radius: 12px;
+          font-size: 16px;
+          width: 50%;
+          text-align:center;
+          margin: 0 auto;
+        }
+      
 
       </style>
 
 
       <!-- Criando a classe container, que possui o esquema de "linhas" e "colunas" para exibir os componentes -->
-      <div class="container" id="tamanhoContainer" style="margin-top: 40px">
+      <div class="container-fluid" id="tamanhoContainer" style="margin-top: 40px">
 
         <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
         <div class="card">
         <div class="card-body">
 
             <!-- Criando a classe container, que possui o esquema de "linhas" e "colunas" para exibir os componentes -->
-            <h5 class="card-title">Adicionar Cliente</h5>
-            <p class="card-text">Cadastrar um novo cliente no sistema.</p>
+            <h5 class="card-title" style="text-align:center">Adicionar Cliente</h5>
+            <p class="card-text" style="text-align:center">Cadastrar um novo cliente no sistema.</p>
 
             <!-- O botão faz referencia ao arquivo que controla o CRUD  -->
-            <a href="cadastroCliente.php" class="btn btn-primary">Adicionar Cliente</a>
+            <div class="botao" id="botao">
+            <a href="cadastroCliente.php" class="btn btn-outline-primary botao">Adicionar</a>
+            </div>
+            
         </div>
         </div>
         </div>
         <div class="col-sm-6">
         <div class="card">
         <div class="card-body">
-            <h5 class="card-title">Listar Clientes</h5>
-            <p class="card-text">Listar Clientes cadastrados no sistema.</p>
-            <a href="listarCliente.php" class="btn btn-primary">Listar Clientes</a>
+            <h5 class="card-title" style="text-align:center">Listar Clientes</h5>
+            <p class="card-text" style="text-align:center">Listar Clientes cadastrados no sistema.</p>
+            <div class="botao" id="botao">
+            <a href="listarCliente.php" class="btn btn-outline-primary botao">Listar</a>
+            </div>
         </div>
         </div>
         </div>
