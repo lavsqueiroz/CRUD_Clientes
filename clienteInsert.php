@@ -18,7 +18,7 @@ $inserir = mysqli_query($conexao,$sql);
 
 ?>
 
-
+<!-- Exibe interface de msg de sucesso -->
 <html>
 <head>
 <meta charset="utf-8">

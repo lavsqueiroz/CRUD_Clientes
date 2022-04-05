@@ -49,7 +49,7 @@
                         echo '<td>' . $nome . '</td>';
                         echo '<td>' . $cpf . '</td>';
                         echo '<td>' . $obs . '</td>';
-                        echo '<td> <a class="btn btn-warning btn-sm" href="clienteEdit.php?id=' . $id .'" role="button"><i class="far fa-edit"></i> Editar</a>';
+                        echo '<td> <a class="btn btn-warning btn-sm" href="clienteEditar.php?id=' . $id .'" role="button"><i class="far fa-edit"></i> Editar</a>';
                         echo ' <a class="btn btn-danger btn-sm" href="clienteDelete.php?id=' . $id .'" role="button"><i class="far fa-trash-alt"></i> Excluir</a></td>';	
     
                         echo '</tr>';
