@@ -20,8 +20,7 @@
         width: 900px;
       }
 
-
-      .botao {
+      .button {
           border-radius: 12px;
           font-size: 16px;
           width: 50%;
@@ -38,35 +37,43 @@
 
         <div class="row">
         <div class="col-md-6">
-        <div class="card">
+        <div class="card border-primary mb-3" style="width: 25rem;">
+        <div class="card text-center">
+        <div class="card w-90">
         <div class="card-body">
+        
 
             <!-- Criando a classe container, que possui o esquema de "linhas" e "colunas" para exibir os componentes -->
-            <h5 class="card-title" style="text-align:center">Adicionar Cliente</h5>
-            <p class="card-text" style="text-align:center">Cadastrar um novo cliente no sistema.</p>
+            <h5 class="card-title"> Cadastrar Clientes</h5>
+            <h6 class="card-text" >Cadastre novos clientes   no sistema para visualiza-los.</h6> <br>
 
             <!-- O botão faz referencia ao arquivo que controla o CRUD  -->
             <div class="botao" id="botao">
-            <a href="cadastroCliente.php" class="btn btn-outline-primary botao">Adicionar</a>
+            <a href="cadastroCliente.php" class="btn btn-outline-primary button">Adicionar</a>
             </div>
-            
+        </div>
+        </div>
         </div>
         </div>
         </div>
         <div class="col-sm-6">
-        <div class="card">
+        <div class="card border-primary mb-3" style="width: 25rem;">
+        <div class="card text-center">
+        <div class="card w-90">
         <div class="card-body">
-            <h5 class="card-title" style="text-align:center">Listar Clientes</h5>
-            <p class="card-text" style="text-align:center">Listar Clientes cadastrados no sistema.</p>
+            <h5 class="card-title">Listar Clientes</h5> 
+            <h6 class="card-text" >Visualize e edite os clientes cadastrados no sistema.</h6> <br>
             <div class="botao" id="botao">
-            <a href="listarCliente.php" class="btn btn-outline-primary botao">Listar</a>
+            <a href="listarCliente.php" class="btn btn-outline-primary button">Listar</a>
             </div>
+        </div>    
+        </div>
         </div>
         </div>
         </div>
         </div>
 
-
+    
         </div>
 
    
