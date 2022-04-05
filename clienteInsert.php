@@ -36,7 +36,7 @@ $inserir = mysqli_query($conexao,$sql);
 	</div>
 	<center>
 		<a href="cadastroCliente.php" role="button" class="btn btn-sm btn-primary">Cadastrar novo cliente</a>
-		
+		<a href="index.php" role="button" class="btn btn-sm btn-primary">Tela inicial</a>
 	</center>
     
 </body>
