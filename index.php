@@ -49,7 +49,7 @@
 
             <!-- O botão faz referencia ao arquivo que controla o CRUD  -->
             <div class="botao" id="botao">
-            <a href="cadastroCliente.php" class="btn btn-outline-primary button">Adicionar</a>
+            <a href="cadastroCliente.php" class="btn btn-outline-primary button">Cadastrar</a>
             </div>
         </div>
         </div>
