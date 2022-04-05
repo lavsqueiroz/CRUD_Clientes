@@ -60,9 +60,16 @@
                 </tr>
             </tbody>
             </table>
+
+            <div class="form-group" style="text-align: left">
+            <label>Pesquisar por nome</label>
+            <input type="text" class="form-control" id="nome" autocomplete="off" name="nome" placeholder="Insira um nome" required> <br>
+            <a href="buscaCliente.php" role="button" class="btn btn-sm btn-primary">Pesquisar</a>
+             </div>               
+
         <div style="text-align: right">
         <a href="index.php" role="button" class="btn btn-sm btn-primary">Voltar</a>
-      </div>
+         </div>
 
     </div>
 
