@@ -35,7 +35,7 @@ $inserir = mysqli_query($conexao,$sql);
 		<h4>Cliente cadastrado com sucesso!</h4>
 	</div>
 	<center>
-		<a href="animais_inserir.php" role="button" class="btn btn-sm btn-primary">Cadastrar novo cliente</a>
+		<a href="cadastroCliente.php" role="button" class="btn btn-sm btn-primary">Cadastrar novo cliente</a>
 		
 	</center>
     
